@@ -27,7 +27,7 @@ body{
   width: 100%;
   height: 100vh;
 }
-/* logo and Title */
+/* Title */
 .title {
   font-size: var(--lg);
   margin-bottom: 40px;
@@ -37,7 +37,7 @@ body{
   grid-template-rows: auto 1fr auto;
   width:300px;
 }
-/* inputs password */
+/* inputs account */
 .form {
   display: flex;
   flex-direction: column;
