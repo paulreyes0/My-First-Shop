@@ -1,0 +1,62 @@
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --text-opaque: #7f8c8d;
+  --very-light-pink:#C7C7C7;
+  --text-input-field:#F7F7F7;
+  --dark: #232830;
+  --hospital-green: #ACD9B2;
+  --sm: 14rem;
+  --md: 16rem;
+  --lg: 18rem;
+}
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 6.25%;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+.main-container {
+  font-size: var(--md);
+  padding: 24rem;
+}
+.main-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-container ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+.main-container ul:not(:last-child) li {
+  margin-bottom: 32rem;
+}
+.main-container ul li a{
+  text-decoration: none;
+}
+.main-container ul:not(:last-child) li a {
+  color: var(--black);
+  font-weight: bold;
+}
+.main-container ul:nth-child(2) li:nth-child(1) {
+  margin-top: 32rem;
+}
+.main-container ul:nth-child(3) {
+  margin-top: 100rem;
+}
+.main-container ul:nth-child(3) li:nth-child(1) {
+  margin-bottom: 4rem;
+}
+.email {
+  color: var(--black);
+}
+.sign_out {
+  color: var(--hospital-green);
+  font-weight: bold;
+}
+.main-container .email {
+  font-weight: 300;
+}
